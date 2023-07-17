@@ -1,0 +1,137 @@
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 90%;
+width: 960px;
+background-color: white;
+margin: 1em auto;
+padding: 10;
+border: 1px solid black;
+}
+section, aside, h1, h2, h3, p, ul {
+margin: 0;
+padding: 0;
+}
+section {
+margin-top: 1.5em;
+margin-bottom: 1em;
+margin-left: 25px;
+}
+/* Here you can use your own link */
+a { font-weight: bold; }
+a:link { color: # 0000ff; }
+a:visited { color: navy; }
+a:hover, a:focus { color: blue; }
+p { padding-bottom: 0.5em; }
+em { font-weight: bold; }
+/* the styles for the header.This is related to the current style, I have seen in 
+class, you have used good style
+*/
+header {
+background-color: #0000ff;
+background-image: -webkit-linear-gradient(right, #0000ff 0%, Aqua 40%, 
+#0000ff 100%);
+background-image: -moz-linear-gradient(right, #0000ff 0%, aqua  40%, #0000ff 
+100%);
+background-image: -o-linear-gradient(right, #0000ff 0%, aqua  40%, #0000ff
+100%);
+background-image: linear-gradient(right, #0000ff 0%, aqua 40%, #0000ff 
+100%);
+padding-bottom: 1em;
+}
+@font-face {
+font-family: Italy;
+        src: url("FRSCRIPT.TTF");/* This is not required */
+}
+header h2 {
+font-family: Italy, cursive;
+font-size: 350%;
+font-weight: bold;
+     color: white;
+     text-shadow: 2px 3px 0 black;
+     padding-top: .25em;
+     margin-left: 25px;
+}
+header h3 {
+font-family: Times New Roman, Times, serif;
+font-size: 150%;
+margin-left: 125px;
+}
+/* the styles for the navigation menu */
+#nav_menu ul {
+list-style: none;
+}
+#nav_menu ul li {
+float: Right;
+}
+#nav_menu ul li a {
+text-align: center;
+display: block;
+width: 190px;
+padding: 1em 0;
+     text-decoration: none;
+     background-color: black;
+     color: white;
+     font-weight: bold;
+     border-right: 2px solid white;
+}
+#nav_menu ul li a.lastitem {
+  border-right: none;
+  width: 190px;
+}
+#nav_menu a.current {
+color: gray;
+}
+/* the styles for the section */
+section {
+width: 960 px;
+padding-right: 20px;
+float: right;
+}
+section h1 {
+font-size: 200%;	1
+margin-bottom: 0.35em; 
+color: #0000ff;
+}
+section img {
+float: Top Right;
+margin: 0 1.5em 1em 0;
+}
+/* the styles for the sidebar */
+aside {
+width: 640px;
+float: center;
+padding-left: 0px;
+}
+aside h2 {
+font-size: 125%;
+color: #696969;
+margin-top: 1.7em;
+padding-bottom: 0.5em;
+}
+aside ul { 
+margin-left: 1.5em;
+margin-bottom: 1.5em; 
+}
+aside li {
+padding-bottom: 0.25em;
+}
+/* the styles for the footer, this is related to the current styles, you can 
+use your own*/
+footer {
+clear: both;
+padding-top: 1em;
+background-color: #0000FF;
+background-image: -webkit-linear-gradient(right, #0000FF 0%, aqua 40%, 
+#0000FF 100%);
+background-image: -moz-linear-gradient(right, #0000FF 0%, aqua 40%, #0000FF 
+100%);
+background-image: -o-linear-gradient(right, #0000FF 0%, aqua 40%, #0000FF
+100%);
+background-image: linear-gradient(right, #0000FF 0%, aqua  40%, #0000FF
+100%);
+}
+footer p {
+font-size: 80%;
+color: white;
+margin-left: 25px;
+padding-bottom: 1em;
