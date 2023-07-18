@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html class="" dir="ltr" lang="en">
+ <head>
+        <meta charset="UTF-8">
+		<title>Tasye of India Billing</title>
+		
+		
+		<script src=" "></script>
+	 </head>
+ <body>
+	<form id ="Billing" action="http://www.example.com/Taste of India/Billing" method="post">
+		<fieldset id="custInfo">
+		<legend>Customer Information</legend>
+	<div class="formrow">
+		<label for="name"> Name* </label>
+		<input name="CustName" id="name" type="text" placeholder="first and last name"/>
+	</div>
+	
+	<div class="formrow">
+		<label for="Street">Street address </label>
+		<input name="custStreet" id="street" type="text"/>
+	</div>
+	
+	<div class="formrow">
+		<label for="City">City </label>
+		<input name="custCity" id="City" type="text" value="Cleveland"/>
+	</div>
+
+	<div class="formrow">
+		<label for="state">State</label>
+		<input name="custState" id="State" type="text" value="MS"/>
+	</div>
+
+	<div class="formrow">
+		<label for="zip">Postal code </label>
+		<input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)"/>
+	</div>
+
+	<div class="formrow">
+		<label for="phone">Phone number </label>
+		<input name="custPhone" id="Phone" type="tel" placeholder="(nnn) nnn-nnnn"/>
+	</div>
+
+	<div class="formrow">
+		<label for="email">E-mail*</label>
+		<input name="custEmail" id="mail" type="email"/>
+	</div>
+		</fieldset>
+		<script type="text/javascript" src="creditcard.js"></script>
+		<link href="Formstyle.css" rel="stylesheet">
+		<fieldset id="expInfo">
+		<legend> Share Your Experience at Taste of India</legend>
+		<label for="info"> Where did you hear about us? <br />(Selct all that apply)</label>
+			<select name="infoSrc" id="info" size="5" multiple>
+				<option value="internet"> Internet </option>
+				<option value="mag"> Magazine</option>
+				<option value="news"> Newspaper</option>
+				<option value="word"> Word of Mouth</option>
+				<option value="other"> Other</option>
+			</select>
+			</div>
+			
+			<input name="mailme" id="mailCB" value="yes" type="checkbox"/>
+			<label for="mailCB"> Add me to your mailing list.</label>
+			
+			<div class="formRow">
+				<label for="visit"> Date of visit</label>
+				<input name="visitDate" id="visit" type="date"/>
+			</div>
+			
+		
+			<div class="formRow">
+				<label for="order"> Order type </label>
+				<select name="Order Type" id="order">
+					<option value="order1"> Carry out</option>
+					<option value="order2"> Delivery</option>
+					<option value="order3" selected> Dine in </option>
+					
+				</select>
+			</div>
+			
+			<label> Was your service friendly?</label>
+			
+			
+				<label for="fyes"> Yes </label>
+				<input name="sFriend" id="fYes" value="yes" type="radio"/>
+				<label for="fNo"> No</label>
+				<input name="sFriend" id="fNo" value=""no" type="radio"/>
+			
+			
+			<label for="commBox"> Tell us more about your experience!</label>
+			<textarea name="custExp" id="commBox"></textarea>
+		
+		
+
+		
+		</fieldset>
+		
+		
+		
+	</form>
+	
+ 
+ 
+ </body>
+ </html>
+ 
